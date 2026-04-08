@@ -1,0 +1,119 @@
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*Ne change pas la taille de ma boite si j'ajoute des padding ou des border. je garde le controle de ma boite*/
+}
+
+/*--------------------------------------------------------TEXTE--------------------------------------------------------------------*/
+.suppuce{
+    list-style-type: none;
+}
+
+.no-line{
+    text-decoration: none;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.majuscule{
+    text-transform: uppercase;
+}
+
+/*----------------------------------------------------CLASSE DE TAILLE------------------------------------------------------*/
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-48{
+    width: 48%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.gap100{
+    gap: 100px;
+}
+
+.gap50{
+    gap: 50px;
+}
+
+.gap30{
+    gap: 30px;
+}
+
+
+/*-----------------------------------------------------------FLEX-BOX------------------------------------------------------*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.center-ver{
+    align-items: center;
+}
+
+.center-orh{
+    justify-content: center;
+}
+
+/*--------------------------------------------------------MARGIN ET PADDING----------------------------------------------------------*/
+.mgt128{
+    margin-top: 128px;
+}
+
+.mgt50{
+    margin-top: 50px;
+}
+
+.mgt30{
+    margin-top: 30px;
+}
+
+.mgt15{
+    margin-top: 25px;
+}
+
+.mgb128{
+margin-bottom: 128px;
+}
+
+.mgb50{
+margin-bottom: 50px;
+}
+
+.mgb30{
+    margin-bottom: 30px;
+}
+
+.mgb15{
+    margin-bottom: 15px;
+}
+
+/*----------------------------------------------------CONTAINER----------------------------------------------*/
+.container1000{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
